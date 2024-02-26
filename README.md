@@ -1,5 +1,5 @@
 # radio-station
-Repository for our group's radio station, producer's section
+proucer section of the radio station SWE 432
 
 
 # Authors
