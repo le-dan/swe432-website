@@ -27,7 +27,7 @@
 	text-decoration: none;
 	font-size: 20px;
 	color: var(--white);
-	background-color: var(--black);
+	background-color: var(--light-black);
 	padding: 15px 30px;
 	border-radius: 10000px;
 	box-shadow: var(--shadow);
@@ -39,7 +39,7 @@
 	height: 100%;
 	border-radius: 12px;
 	border: 1px solid var(--purple);
-	background-color: var(--black);
+	background-color: var(--light-black);
 	font-weight: 200;
 	font-size: 25px;
 	box-shadow: var(--shadow);
@@ -77,7 +77,7 @@
 	border-radius: 100%;
 	border: 1px solid var(--purple);
 	overflow: hidden;
-	background-color: var(--black);
+	background-color: var(--light-black);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -85,6 +85,7 @@
 	font-size: x-large;
 	box-shadow: var(--shadow);
 	transition: transform 0.1s ease-in-out;
+	user-select: none;
 }
 
 .profile .icon:hover {
